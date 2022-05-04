@@ -6,7 +6,7 @@ on:
 
 jobs:
   deleteAZResourceGroup:
-    name: Delete Azure Resource Group
+    name: Delete Dev esource Group
     runs-on: ubuntu-latest
      
     environment:
