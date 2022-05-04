@@ -125,7 +125,7 @@ jobs:
 
     # output URL from deployment
     environment:
-      name: Test
+      name: QA
       url:  ${{ steps.get-webapp-url.outputs.webAppUrl }}
  
     steps:
