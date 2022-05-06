@@ -70,7 +70,7 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Deploy app
-      uses: automagicallyorg/action-azure-deploy@master
+      uses: automagicallyorg/action-azure-deploy@main
       with:
         azuerClientId: ${{ secrets.AZURE_CLIENT_ID }}
         azureTenantId: ${{ secrets.AZURE_TENANT_ID }}
@@ -99,7 +99,7 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Deploy app
-      uses: automagicallyorg/action-azure-deploy@master
+      uses: automagicallyorg/action-azure-deploy@main
       with:
         azuerClientId: ${{ secrets.AZURE_CLIENT_ID }}
         azureTenantId: ${{ secrets.AZURE_TENANT_ID }}
@@ -128,7 +128,7 @@ jobs:
       uses: actions/checkout@v2
     
     - name: Deploy app
-      uses: automagicallyorg/action-azure-deploy@master
+      uses: automagicallyorg/action-azure-deploy@main
       with:
         azuerClientId: ${{ secrets.AZURE_CLIENT_ID }}
         azureTenantId: ${{ secrets.AZURE_TENANT_ID }}
@@ -157,7 +157,7 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Deploy app
-      uses: automagicallyorg/action-azure-deploy@master
+      uses: automagicallyorg/action-azure-deploy@main
       with:
         azuerClientId: ${{ secrets.AZURE_CLIENT_ID }}
         azureTenantId: ${{ secrets.AZURE_TENANT_ID }}
